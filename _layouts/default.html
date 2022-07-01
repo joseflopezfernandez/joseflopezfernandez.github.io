@@ -36,13 +36,12 @@
     </footer>
 
     <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         'use strict';
 
-        window.addEventListener('load', () => {
-            window.addEventListener('click', () => {
-                console.debug('Click event invoked.');
-            });
+        $(function () {
+            console.debug('DOM loaded.');
         });
     </script>
 </body>
