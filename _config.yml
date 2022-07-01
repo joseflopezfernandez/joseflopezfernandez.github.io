@@ -1,3 +1,14 @@
+# Site Settings
 theme: jekyll-theme-slate
 title: Jose Fernando
 description: Lopez Fernandez
+tagline: Some Tag Line
+email: josefernando.lopezfernandez@proton.me
+lang: en
+baseurl: "/"
+url: "joseflopezfernandez.github.io"
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
