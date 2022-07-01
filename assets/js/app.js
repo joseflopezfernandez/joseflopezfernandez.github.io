@@ -15,7 +15,7 @@
   \****************/
 /***/ ((module) => {
 
-eval("\nmodule.exports = class App {\n    constuctor(name) {\n        this.name = name;\n    }\n\n    getName() {\n        return this.name;\n    }\n\n    run() {\n        console.log('The application is now running.');\n    }\n};\n\n\n//# sourceURL=webpack:///./app.js?");
+eval("\nmodule.exports = class App {\n    constuctor(name) {\n        this.name = name;\n    }\n\n    getName() {\n        return this.name;\n    }\n\n    run() {\n        console.log('The application is now running.');\n    }\n};\n\nconst app = new App();\napp.run();\n\n\n//# sourceURL=webpack:///./app.js?");
 
 /***/ })
 

@@ -12,3 +12,6 @@ module.exports = class App {
         console.log('The application is now running.');
     }
 };
+
+const app = new App();
+app.run();
