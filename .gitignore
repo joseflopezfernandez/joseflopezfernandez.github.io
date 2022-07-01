@@ -1,4 +1,8 @@
+# Ignore Jekyll files.
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Ignore NodeJS folders.
+node_modules/
