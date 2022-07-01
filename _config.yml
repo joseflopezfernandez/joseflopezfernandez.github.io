@@ -1,8 +1,8 @@
 # Site Settings
 #theme: jekyll-theme-slate
-title: Jose Fernando
-description: Lopez Fernandez
-tagline: Some Tag Line
+title: Jose Fernando Lopez Fernandez
+description: The homepage of Jose Fernando Lopez Fernandez
+tagline: Software Engineer
 email: josefernando.lopezfernandez@proton.me
 lang: en
 baseurl: "/"
