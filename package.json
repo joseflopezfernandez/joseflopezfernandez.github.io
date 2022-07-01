@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/sass/sass.js _sass/style.sass assets/css/style.css"
+    "build-debug": "node_modules/sass/sass.js --load-path=node_modules --update --style=expanded --embed-sources --embed-source-map _sass/style.sass assets/css/style.css",
+    "build-release": "node_modules/sass/sass.js --load-path=node_modules --update --style=compressed --no-embed-sources --no-embed-source-map _sass/style.sass assets/css/style.css"
   },
   "repository": {
     "type": "git",
